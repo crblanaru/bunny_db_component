@@ -1,0 +1,13 @@
+version: '3.4'
+services:
+  db:
+    container_name: bunnyshell-db
+    image: postgres
+    restart: always
+    user: postgres
+    environment:
+      - POSTGRES_DB=bunny_db
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=need-to-replace
+    expose:
+      - 5432

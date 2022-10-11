@@ -1,1 +1,1 @@
-# bunny_db_componet
+DB component to be used in Bunnyshell demonstrations.
